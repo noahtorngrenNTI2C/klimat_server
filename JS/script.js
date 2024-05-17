@@ -1,3 +1,4 @@
+// denna kod används inte
 const btn = document.querySelector("button");
 
 function random(number) {
