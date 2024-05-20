@@ -15,6 +15,7 @@ def index():
     rainResult = get_sensor_value.getRain()
 
     def rain():
+        print(rainResult)
         if rainResult == "1":
             return "Ja"
         else:

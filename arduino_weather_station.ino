@@ -19,6 +19,7 @@ Adafruit_BME280 bme(BME_CS); // hardware SPI
 
 unsigned long delayTime;
 
+// variabler för alla pins
 int sensorAnalogPin = A0;
 int sensorDigitalpin = 8;
 
